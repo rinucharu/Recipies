@@ -1,0 +1,28 @@
+.home h2{
+  font-size: 32px;
+  color: white;
+}
+
+.home p{
+  align-items: justify;
+  font-size: 16px;
+  color: white;
+  padding-top: 20px;
+}
+
+.home{
+  background-image: url(https://themewagon.github.io/delicious/img/bg-img/bg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 97vh;
+}
+
+.des{
+  width: 550px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-left: 5px rgb(5, 196, 5) solid;
+  border-bottom: 5px rgb(8, 212, 8) solid;
+}

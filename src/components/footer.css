@@ -1,0 +1,30 @@
+footer{
+  color: white;
+}
+
+footer h2{
+  text-transform: capitalize;
+  font-size: 32px;
+}
+
+footer .links ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+footer .links ul li{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer .icon-link ul {
+  display: flex !important;
+  flex-direction: row ;
+  justify-content: space-around !important;
+  align-items: center;
+}
+
+.icon-link ul {
+  list-style: none;
+
+}
