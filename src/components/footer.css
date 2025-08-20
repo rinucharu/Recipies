@@ -1,30 +1,43 @@
 footer{
+  background-color: black;
   color: white;
 }
 
 footer h2{
-  text-transform: capitalize;
+  font-weight: 600;
   font-size: 32px;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 20px;
+ 
 }
 
-footer .links ul {
+footer ul{
   list-style: none;
-  text-decoration: none;
 }
 
-footer .links ul li{
-  text-decoration: none;
+footer ul li{
+  padding-bottom: 15px;
   font-size: 18px;
+  opacity: 0.5;
+  text-align: start !important;
+ 
+  color: white;
 }
 
-footer .icon-link ul {
-  display: flex !important;
-  flex-direction: row ;
-  justify-content: space-around !important;
-  align-items: center;
+footer ul li:hover{
+  opacity: 1;
+
+
 }
 
-.icon-link ul {
-  list-style: none;
+footer .icons ul{
+display: flex !important;
+flex-direction: row;
+justify-content: space-between;
+}
 
+footer .icons ul li:hover{
+  transform: translatey(-10px);
+  transition: 0.4s;
 }

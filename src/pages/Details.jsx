@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 
 const Details = () => {
@@ -29,6 +29,7 @@ const Details = () => {
         <tr>
         <th>Image</th>
           <th> Name</th>
+          <th>MealType</th>
           <th>Incridients</th>
           <th>Instructions</th>
           
@@ -38,6 +39,7 @@ const Details = () => {
         <tr>
          <td><img src={recipies.image} alt=""  className='img-fluid'/></td>
           <td>{recipies.name}</td>
+          <td>{recipies.mealType}</td>
           <td>{recipies.ingredients}</td>
           <td>{recipies.instructions}</td>
           
@@ -47,8 +49,8 @@ const Details = () => {
     </Table>
 
     <div className="buttons d-flex align-items-center justify-content-center ">
-      <button className="btn btn-dark me-3">Back to Home</button>
-      <button className="btn btn-success">Try it</button>
+      <Link to="/" className="btn btn-dark me-3">Back to Home</Link>
+      <Link className="btn btn-success">Try it</Link>
     </div>
     </div>
    </section>
